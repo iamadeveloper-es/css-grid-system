@@ -1,0 +1,245 @@
+@media screen and(min-width: 576px){
+    .wrapper{
+        max-width: 540px;
+    }
+    .col-s-1{
+        @include m-col;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .col-s-2{
+        @include m-col;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-s-3{
+        @include m-col;
+        flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-s-4{
+        @include m-col;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-s-5{
+        @include m-col;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-s-6{
+        @include m-col;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-s-7{
+        @include m-col;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-s-8{
+        @include m-col;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-s-9{
+        @include m-col;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-s-10{
+        @include m-col;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-s-11{
+        @include m-col;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-s-12{
+        @include m-col;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media screen and(min-width: 768px){
+    .wrapper{
+        @include m-col;
+        max-width: 720px;
+    }
+    .col-m-1{
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }   
+    .col-m-2{
+        @include m-col;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-m-3{
+        @include m-col;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-m-4{
+        @include m-col;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-m-5{
+        @include m-col;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-m-6{
+        @include m-col;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-m-7{
+        @include m-col;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-m-8{
+        @include m-col;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-m-9{
+        @include m-col;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-m-10{
+        @include m-col;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-m-11{
+        @include m-col;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-m-12{
+        @include m-col;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media screen and(min-width: 992px){
+    .wrapper{
+        max-width: 960px;
+    }
+    .col-l-2{
+        @include m-col;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-l-3{
+        @include m-col;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-l-4{
+        @include m-col;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-l-5{
+        @include m-col;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-l-6{
+        @include m-col;
+        max-width: 50%;
+    }
+    .col-l-7{
+        @include m-col;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-l-8{
+        @include m-col;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-l-9{
+        @include m-col;
+        max-width: 75%;
+    }
+    .col-l-10{
+        @include m-col;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-l-11{
+        @include m-col;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-l-12{
+        @include m-col;
+        max-width: 100%;
+    }
+}
+@media screen and(min-width: 1200px){
+    .wrapper{
+        max-width: 1140px;
+    }
+    .col-xl-2{
+        @include m-col;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-xl-3{
+        @include m-col;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xl-4{
+        @include m-col;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-xl-5{
+        @include m-col;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-xl-6{
+        @include m-col;
+        max-width: 50%;
+    }
+    .col-xl-7{
+        @include m-col;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-xl-8{
+        @include m-col;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-xl-9{
+        @include m-col;
+        max-width: 75%;
+    }
+    .col-xl-10{
+        @include m-col;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-xl-11{
+        @include m-col;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-xl-12{
+        @include m-col;
+        max-width: 100%;
+    }
+}
