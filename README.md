@@ -3,6 +3,13 @@
 Basic CSS reset and grid.
 This is more than a CSS reset, a grid system ready to use based on 12 columns grid using flexbox.
 
+## Description
+
+Every time I start a new project I need to perform a series of global styles and reset certain HTML elements.
+I don't want to depend on more unnecessary libraries than I will only use a small part of the code.
+With these styles I intend to only have a basic starting CSS nothing more and nothing less.
+If you want to use it forward, I hope it helps you.
+
 ## Info
 
 - CrossBrowser
