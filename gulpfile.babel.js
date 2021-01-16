@@ -28,7 +28,15 @@ gulp.task('es6', function () {
 
 });
 
+gulp.task('dist', function () {
+    return gulp.src('./src/scss/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({ outputStyle: 'compressed' }))
+        .pipe(autoprefixer('last 10 version'))
+        .pipe(gulp.dest('./dist/css'))
+        .pipe(notify("Sass Compiled!")); //Mensaje
 
+});
 
 gulp.task('watchSass', function () {
     return gulp.watch('./src/scss/**/*.scss', gulp.series('sass'));
