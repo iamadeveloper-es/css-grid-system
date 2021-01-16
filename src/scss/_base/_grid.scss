@@ -1,127 +1,125 @@
-.m-container{
+.g-container{
     width: 100%;
     max-width: 1140px;
     @include marginAuto;
     padding-left: 15px;
     padding-right: 15px;
 }
-.m-container-fluid{
+.g-container-fluid{
     width: 100%;
 }
-.m-row{
+.g-row{
     display: flex;
     flex-wrap: wrap;
-    //margin-right: 15px;
-    //margin-left: 15px;
 }
-.m-col{
-    @include m-col;
+.g-col{
+    @include g-col;
 }
-.m-col-1{
-    @include m-col;
+.g-col-1{
+    @include g-col;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
 }
-.m-col-2{
-    @include m-col;
+.g-col-2{
+    @include g-col;
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
 }
-.m-col-3{
-    @include m-col;
+.g-col-3{
+    @include g-col;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
 }
-.m-col-4{
-    @include m-col;
+.g-col-4{
+    @include g-col;
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }
-.m-col-5{
-    @include m-col;
+.g-col-5{
+    @include g-col;
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
 
 }
-.m-col-6{
-    @include m-col;
+.g-col-6{
+    @include g-col;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
 }
-.m-col-7{
-    @include m-col;
+.g-col-7{
+    @include g-col;
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
 }
-.m-col-8{
-    @include m-col;
+.g-col-8{
+    @include g-col;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
 }
-.m-col-9{
-    @include m-col;
+.g-col-9{
+    @include g-col;
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
 }
-.m-col-10{
-    @include m-col;
+.g-col-10{
+    @include g-col;
     -ms-flex: 0 0 83.333333%;
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
 }
-.m-col-11{
-    @include m-col;
+.g-col-11{
+    @include g-col;
     -ms-flex: 0 0 91.666667%;
     flex: 0 0 91.666667%;
     max-width: 91.666667%;
 }
-.m-col-12{
-    @include m-col;
+.g-col-12{
+    @include g-col;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
 }
-.m-offset-1{
+.g-offset-1{
     margin-left: 8.333333%;
 }
-.m-offset-2{
+.g-offset-2{
     margin-left: 16.666667%;
 }
-.m-offset-3{
+.g-offset-3{
     margin-left: 25%;
 }
-.m-offset-4{
+.g-offset-4{
     margin-left: 33.333333%;
 }
-.m-offset-5{
+.g-offset-5{
     margin-left: 41.666667;
 }
-.m-offset-6{
+.g-offset-6{
     margin-left: 50%;
 }
-.m-offset-7{
+.g-offset-7{
     margin-left: 58.333333%;
 }
-.m-offset-8{
+.g-offset-8{
     margin-left: 66.666667%;
 }
-.m-offset-9{
+.g-offset-9{
     margin-left: 75%;
 }
-.m-offset-10{
+.g-offset-10{
     margin-left: 83.333333%;
 }
-.m-offset-11{
+.g-offset-11{
     margin-left: 91.666667;
 }

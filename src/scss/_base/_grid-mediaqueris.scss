@@ -1,377 +1,377 @@
 @media screen and(min-width: 576px){
-    .m-container{
+    .g-container{
         max-width: 540px;
     }
-    .m-col-sm-1{
-        @include m-col;
+    .g-col-sm-1{
+        @include g-col;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
     }
-    .m-col-sm-2{
-        @include m-col;
+    .g-col-sm-2{
+        @include g-col;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
     }
-    .m-col-sm-3{
-        @include m-col;
+    .g-col-sm-3{
+        @include g-col;
         flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
     }
-    .m-col-sm-4{
-        @include m-col;
+    .g-col-sm-4{
+        @include g-col;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-    .m-col-sm-5{
-        @include m-col;
+    .g-col-sm-5{
+        @include g-col;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
     }
-    .m-col-sm-6{
-        @include m-col;
+    .g-col-sm-6{
+        @include g-col;
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .m-col-sm-7{
-        @include m-col;
+    .g-col-sm-7{
+        @include g-col;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
     }
-    .m-col-sm-8{
-        @include m-col;
+    .g-col-sm-8{
+        @include g-col;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
     }
-    .m-col-sm-9{
-        @include m-col;
+    .g-col-sm-9{
+        @include g-col;
         flex: 0 0 75%;
         max-width: 75%;
     }
-    .m-col-sm-10{
-        @include m-col;
+    .g-col-sm-10{
+        @include g-col;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
     }
-    .m-col-sm-11{
-        @include m-col;
+    .g-col-sm-11{
+        @include g-col;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
     }
-    .m-col-sm-12{
-        @include m-col;
+    .g-col-sm-12{
+        @include g-col;
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .m-offset-sm-1{
+    .g-offset-sm-1{
         margin-left: 8.333333%;
     }
-    .m-offset-sm-2{
+    .g-offset-sm-2{
         margin-left: 16.666667%;
     }
-    .m-offset-sm-3{
+    .g-offset-sm-3{
         margin-left: 25%;
     }
-    .m-offset-sm-4{
+    .g-offset-sm-4{
         margin-left: 33.333333%;
     }
-    .m-offset-sm-5{
+    .g-offset-sm-5{
         margin-left: 41.666667;
     }
-    .m-offset-sm-6{
+    .g-offset-sm-6{
         margin-left: 50%;
     }
-    .m-offset-sm-7{
+    .g-offset-sm-7{
         margin-left: 58.333333%;
     }
-    .m-offset-sm-8{
+    .g-offset-sm-8{
         margin-left: 66.666667%;
     }
-    .m-offset-sm-9{
+    .g-offset-sm-9{
         margin-left: 75%;
     }
-    .m-offset-sm-10{
+    .g-offset-sm-10{
         margin-left: 83.333333%;
     }
-    .m-offset-sm-11{
+    .g-offset-sm-11{
         margin-left: 91.666667;
     }
 }
 @media screen and(min-width: 768px){
-    .m-container{
-        @include m-col;
+    .g-container{
+        @include g-col;
         max-width: 720px;
     }
-    .m-col-md-1{
+    .g-col-md-1{
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
     }   
-    .m-col-md-2{
-        @include m-col;
+    .g-col-md-2{
+        @include g-col;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
     }
-    .m-col-md-3{
-        @include m-col;
+    .g-col-md-3{
+        @include g-col;
         flex: 0 0 25%;
         max-width: 25%;
     }
-    .m-col-md-4{
-        @include m-col;
+    .g-col-md-4{
+        @include g-col;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-    .m-col-md-5{
-        @include m-col;
+    .g-col-md-5{
+        @include g-col;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
     }
-    .m-col-md-6{
-        @include m-col;
+    .g-col-md-6{
+        @include g-col;
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .m-col-md-7{
-        @include m-col;
+    .g-col-md-7{
+        @include g-col;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
     }
-    .m-col-md-8{
-        @include m-col;
+    .g-col-md-8{
+        @include g-col;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
     }
-    .m-col-md-9{
-        @include m-col;
+    .g-col-md-9{
+        @include g-col;
         flex: 0 0 75%;
         max-width: 75%;
     }
-    .m-col-md-10{
-        @include m-col;
+    .g-col-md-10{
+        @include g-col;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
     }
-    .m-col-md-11{
-        @include m-col;
+    .g-col-md-11{
+        @include g-col;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
     }
-    .m-col-md-12{
-        @include m-col;
+    .g-col-md-12{
+        @include g-col;
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .m-offset-md-1{
+    .g-offset-md-1{
         margin-left: 8.333333%;
     }
-    .m-offset-md-2{
+    .g-offset-md-2{
         margin-left: 16.666667%;
     }
-    .m-offset-md-3{
+    .g-offset-md-3{
         margin-left: 25%;
     }
-    .m-offset-md-4{
+    .g-offset-md-4{
         margin-left: 33.333333%;
     }
-    .m-offset-md-5{
+    .g-offset-md-5{
         margin-left: 41.666667;
     }
-    .m-offset-md-6{
+    .g-offset-md-6{
         margin-left: 50%;
     }
-    .m-offset-md-7{
+    .g-offset-md-7{
         margin-left: 58.333333%;
     }
-    .m-offset-md-8{
+    .g-offset-md-8{
         margin-left: 66.666667%;
     }
-    .m-offset-md-9{
+    .g-offset-md-9{
         margin-left: 75%;
     }
-    .m-offset-md-10{
+    .g-offset-md-10{
         margin-left: 83.333333%;
     }
-    .m-offset-md-11{
+    .g-offset-md-11{
         margin-left: 91.666667;
     }
 }
 @media screen and(min-width: 992px){
-    .m-container{
+    .g-container{
         max-width: 960px;
     }
-    .m-col-lg-2{
-        @include m-col;
+    .g-col-lg-2{
+        @include g-col;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
     }
-    .m-col-lg-3{
-        @include m-col;
+    .g-col-lg-3{
+        @include g-col;
         flex: 0 0 25%;
         max-width: 25%;
     }
-    .m-col-lg-4{
-        @include m-col;
+    .g-col-lg-4{
+        @include g-col;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-    .m-col-lg-5{
-        @include m-col;
+    .g-col-lg-5{
+        @include g-col;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
     }
-    .m-col-lg-6{
-        @include m-col;
+    .g-col-lg-6{
+        @include g-col;
         max-width: 50%;
     }
-    .m-col-lg-7{
-        @include m-col;
+    .g-col-lg-7{
+        @include g-col;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
     }
-    .m-col-lg-8{
-        @include m-col;
+    .g-col-lg-8{
+        @include g-col;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
     }
-    .m-col-lg-9{
-        @include m-col;
+    .g-col-lg-9{
+        @include g-col;
         max-width: 75%;
     }
-    .m-col-lg-10{
-        @include m-col;
+    .g-col-lg-10{
+        @include g-col;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
     }
-    .m-col-lg-11{
-        @include m-col;
+    .g-col-lg-11{
+        @include g-col;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
     }
-    .m-col-lg-12{
-        @include m-col;
+    .g-col-lg-12{
+        @include g-col;
         max-width: 100%;
     }
-    .m-offset-lg-1{
+    .g-offset-lg-1{
         margin-left: 8.333333%;
     }
-    .m-offset-lg-2{
+    .g-offset-lg-2{
         margin-left: 16.666667%;
     }
-    .m-offset-lg-3{
+    .g-offset-lg-3{
         margin-left: 25%;
     }
-    .m-offset-lg-4{
+    .g-offset-lg-4{
         margin-left: 33.333333%;
     }
-    .m-offset-lg-5{
+    .g-offset-lg-5{
         margin-left: 41.666667;
     }
-    .m-offset-lg-6{
+    .g-offset-lg-6{
         margin-left: 50%;
     }
-    .m-offset-lg-7{
+    .g-offset-lg-7{
         margin-left: 58.333333%;
     }
-    .m-offset-lg-8{
+    .g-offset-lg-8{
         margin-left: 66.666667%;
     }
-    .m-offset-lg-9{
+    .g-offset-lg-9{
         margin-left: 75%;
     }
-    .m-offset-lg-10{
+    .g-offset-lg-10{
         margin-left: 83.333333%;
     }
-    .m-offset-lg-11{
+    .g-offset-lg-11{
         margin-left: 91.666667;
     }
 }
 @media screen and(min-width: 1200px){
-    .m-container{
+    .g-container{
         max-width: 1140px;
     }
-    .m-col-xl-2{
-        @include m-col;
+    .g-col-xl-2{
+        @include g-col;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
     }
-    .m-col-xl-3{
-        @include m-col;
+    .g-col-xl-3{
+        @include g-col;
         flex: 0 0 25%;
         max-width: 25%;
     }
-    .m-col-xl-4{
-        @include m-col;
+    .g-col-xl-4{
+        @include g-col;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-    .m-col-xl-5{
-        @include m-col;
+    .g-col-xl-5{
+        @include g-col;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
     }
-    .m-col-xl-6{
-        @include m-col;
+    .g-col-xl-6{
+        @include g-col;
         max-width: 50%;
     }
-    .m-col-xl-7{
-        @include m-col;
+    .g-col-xl-7{
+        @include g-col;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
     }
-    .m-col-xl-8{
-        @include m-col;
+    .g-col-xl-8{
+        @include g-col;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
     }
-    .m-col-xl-9{
-        @include m-col;
+    .g-col-xl-9{
+        @include g-col;
         max-width: 75%;
     }
-    .m-col-xl-10{
-        @include m-col;
+    .g-col-xl-10{
+        @include g-col;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
     }
-    .m-col-xl-11{
-        @include m-col;
+    .g-col-xl-11{
+        @include g-col;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
     }
-    .m-col-xl-12{
-        @include m-col;
+    .g-col-xl-12{
+        @include g-col;
         max-width: 100%;
     }
-    .m-offset-xl-1{
+    .g-offset-xl-1{
         margin-left: 8.333333%;
     }
-    .m-offset-xl-2{
+    .g-offset-xl-2{
         margin-left: 16.666667%;
     }
-    .m-offset-xl-3{
+    .g-offset-xl-3{
         margin-left: 25%;
     }
-    .m-offset-xl-4{
+    .g-offset-xl-4{
         margin-left: 33.333333%;
     }
-    .m-offset-xl-5{
+    .g-offset-xl-5{
         margin-left: 41.666667;
     }
-    .m-offset-xl-6{
+    .g-offset-xl-6{
         margin-left: 50%;
     }
-    .m-offset-xl-7{
+    .g-offset-xl-7{
         margin-left: 58.333333%;
     }
-    .m-offset-xl-8{
+    .g-offset-xl-8{
         margin-left: 66.666667%;
     }
-    .m-offset-xl-9{
+    .g-offset-xl-9{
         margin-left: 75%;
     }
-    .m-offset-xl-10{
+    .g-offset-xl-10{
         margin-left: 83.333333%;
     }
-    .m-offset-xl-11{
+    .g-offset-xl-11{
         margin-left: 91.666667;
     }
 }
