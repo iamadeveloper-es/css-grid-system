@@ -1,0 +1,7 @@
+.btn-custom{
+    @include btn-reset;
+    &.light-blue{
+        background-color: #66aad1;
+        color: $white;
+    }
+}

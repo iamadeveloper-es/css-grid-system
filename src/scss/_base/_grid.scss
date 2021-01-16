@@ -2,6 +2,8 @@
     width: 100%;
     max-width: 1140px;
     @include marginAuto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .m-container-fluid{
     width: 100%;
@@ -122,4 +124,7 @@
 }
 .m-offset-11{
     margin-left: 91.666667;
+}
+.m-img-fluid{
+    width: 100%;
 }
