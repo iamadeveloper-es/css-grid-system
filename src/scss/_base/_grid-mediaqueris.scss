@@ -96,6 +96,9 @@
     .g-offset-sm-11{
         margin-left: 91.666667;
     }
+    .g-m-sm-auto{
+        @include marginAuto;
+    }
 }
 @media screen and(min-width: 768px){
     .g-container{
@@ -194,6 +197,9 @@
     .g-offset-md-11{
         margin-left: 91.666667;
     }
+    .g-m-md-auto{
+        @include marginAuto;
+    }
 }
 @media screen and(min-width: 992px){
     .g-container{
@@ -284,6 +290,9 @@
     .g-offset-lg-11{
         margin-left: 91.666667;
     }
+    .g-m-lg-auto{
+        @include marginAuto;
+    }
 }
 @media screen and(min-width: 1200px){
     .g-container{
@@ -373,5 +382,8 @@
     }
     .g-offset-xl-11{
         margin-left: 91.666667;
+    }
+    .g-m-xl-auto{
+        @include marginAuto;
     }
 }

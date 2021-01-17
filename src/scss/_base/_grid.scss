@@ -123,3 +123,6 @@
 .g-offset-11{
     margin-left: 91.666667;
 }
+.g-m-auto{
+    @include marginAuto;
+}
