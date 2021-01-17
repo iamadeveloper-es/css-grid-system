@@ -1,7 +1,15 @@
-.btn-custom{
+.g-btn-small{
     @include btn-reset;
-    &.light-blue{
-        background-color: #66aad1;
-        color: $white;
-    }
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.g-btn-medium{
+    @include btn-reset;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.g-btn-large{
+    @include btn-reset;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
